@@ -1,38 +1,51 @@
 
-  # a ![badmath](https://img.shields.io/badge/license-mit-brightgreen) ![badmath](https://img.shields.io/badge/license-apache-brightgreen) ![badmath](https://img.shields.io/badge/license-bsd-brightgreen) ![badmath](https://img.shields.io/badge/license-lgpl-brightgreen) ![badmath](https://img.shields.io/badge/license-gpl-brightgreen)
+  # title ![badmath](https://img.shields.io/badge/license-MIT-blue) ![badmath](https://img.shields.io/badge/license-APACHE-blue) ![badmath](https://img.shields.io/badge/license-BSD-blue) ![badmath](https://img.shields.io/badge/license-GPL-blue)
 
   ## About/Description
 
-  a
+  descript
 
   ## Table of Contents
 
   * [Installation](#installation)
+  * [Usage](#usage)
   * [Languages](#languages)
-  * [Credits](#Credits)
-  * [License](#License)
+  * [Contributing](#contributing)
+  * [License](license)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Installation
 
-  a
+  none
+
+  ## Usage
+
+  none
 
   ## Languages
 
   JavaScript, HTML, CSS, ES6, jQuery, Bootstrap
 
-  ## Credits
+  ## Contributing
 
-  a
+  Contributions by: name
+
+  If you would like to contribute to this project we follow the [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## License
 
-  ![badmath](https://img.shields.io/badge/license-mit-brightgreen) ![badmath](https://img.shields.io/badge/license-apache-brightgreen) ![badmath](https://img.shields.io/badge/license-bsd-brightgreen) ![badmath](https://img.shields.io/badge/license-lgpl-brightgreen) ![badmath](https://img.shields.io/badge/license-gpl-brightgreen)
+  https://choosealicense.com/licenses/mit/,https://choosealicense.com/licenses/mit/,https://choosealicense.com/licenses/mit/,https://choosealicense.com/licenses/mit/
 
-  ## Contact for Questions
+  ## Tests
 
-  Email Us At: a
+  undefined
 
-  Github Repo: a
+  ## Contact for Questions:
+
+  Email Us At: email@email.com
+
+  Github Repo: github.io/link
 
 
 

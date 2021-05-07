@@ -5,7 +5,7 @@ const renderLicenseBadge = license => {
     let badge = [];
     for(let i = 0; i < license.length; i++){
       let licenseName = license[i].toLowerCase().split(' ')[0]
-      badge.push('![badmath](https://img.shields.io/badge/license-'+ licenseName + '-blue)')
+      badge.push('![badmath](https://img.shields.io/badge/license-'+ licenseName.toUpperCase() + '-blue)')
     }
     let newBadge = badge.join(' ').trim();
     return newBadge;
@@ -16,13 +16,28 @@ const renderLicenseBadge = license => {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-const renderLicenseLink = license => {}
+const renderLicenseLink = license => {  
+  let linkArr = []
+  for(let i = 0; i < license.length; i++){
+    let licenseName = license[i].toLowerCase().split(' ')[0];
+    if(licenseName = 'mit'){
+      linkArr.push('https://choosealicense.com/licenses/mit/')
+    } else if(licenseName = 'apache') {
+      linkArr.push('https://www.apache.org/licenses/LICENSE-2.0.txt')
+    } else if(licenseName = 'bsd') {
+      linkArr.push('https://www.openbsd.org/policy.html')
+    } else if(licenseName = 'gpl') {
+      linkArr.push('https://choosealicense.com/licenses/gpl-3.0/')
+    }
+  }
+  return linkArr
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 const renderLicenseSection = license => {
   if(license) {
-    return renderLicenseBadge(license)
+    return renderLicenseLink(license)
   } else {
     return 'No License Selected'
   }
