@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const { resolve } = require('path');
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -31,8 +32,14 @@ const questions = [
         }
     },
     {
+        type: 'checkbox',
+        name: 'languages',
+        message: 'What did you build this project with? (Check all that apply)',
+        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap']
+    },
+    {
         type: 'input',
-        name: 'contributions',
+        name: 'credits',
         message: 'Please enter the names of those who contributed to this project (required)',
         validate: contribInput => {
             if(contribInput) {
@@ -88,29 +95,35 @@ const questions = [
             }
         }
     },
-
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+const writeToFile = (fileName, data) => {
+    return new Promise((resolve, reject) => {
     fs.writeFile('./dist/' + fileName, generateMarkdown(data), err => {
         if(err) {
-            return console.log(err);
+            reject(err);
+            return;
         }
-        console.log("Success!")
+        resolve({
+            ok:true,
+            message: 'File Created!'
+        });
     })
+})
 }
 
 // TODO: Create a function to initialize app
-function init() {
+const init = () => {
     inquirer
     .prompt(questions)
     .then(function(data) {
         // create filename based on user title entered from questions above
-        const filename = data.title
-            .toLowerCase()
-            .split(' ')
-            .join('') + '.md';
+        // const filename = data.title
+        //     .toLowerCase()
+        //     .split(' ')
+        //     .join('') + '.md';
+        const filename = "README.md"
         writeToFile(filename, data);
     })   
     // console.log(data);
