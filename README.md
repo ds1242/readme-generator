@@ -26,7 +26,7 @@
 
   ##### User Input in Bash
 
-  <img width="1000" src=".Develop/images/UserInput.jpg" alt="Users add their input in Bash> 
+  <img width="1000" src=".Develop/images/UserInput.jpg" alt="Users add their input in Bash"> 
 
   ##### ReadMe Markdown Page Result
 
