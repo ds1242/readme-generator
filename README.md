@@ -26,15 +26,15 @@
 
   ##### User Input in Bash
 
-  <img width="1000" src="./images/UserInput.jpg" alt="Users add their input in Bash> 
+  <img width="1000" src=".Develop/images/UserInput.jpg" alt="Users add their input in Bash> 
 
   ##### ReadMe Markdown Page Result
 
-  <img width="1000" src="./images/ReadMeFileGenerated.jpg" alt="markdown page generated from user input">
+  <img width="1000" src=".Develop/images/ReadMeFileGenerated.jpg" alt="markdown page generated from user input">
 
   ##### ReadMe Live Preview
 
-  <img width="1000" src="./images/ReadMeLivePreview.jpg" alt="readme page preview">
+  <img width="1000" src=".Develop/images/ReadMeLivePreview.jpg" alt="readme page preview">
 
   ## Languages
 
