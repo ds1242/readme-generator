@@ -37,16 +37,23 @@ const renderLicenseLink = license => {
 // If there is no license, return an empty string
 const renderLicenseSection = license => {
   if(license.length === 0) {
-    let noLicense = 'No license selected';
-    console.log(license)
+    let noLicense = 'No license was selected';
     return  noLicense;
   } else if(license) {    
     return renderLicenseLink(license)       
-  } 
-  
+  }   
+}
+// Display languages selected. If none then returns that none were selected
+const renderLanguages = languages => {
+  if(languages.length === 0) {
+    let noLanguages = "No programming languages selected";
+    return noLanguages;
+  } else {
+    return languages.join('<br>')
+  }
 }
 
-
+// ${data.languages.join('<br>')}
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
   return `
@@ -76,7 +83,7 @@ const generateMarkdown = data => {
 
   ## Languages
 
-  ${data.languages.join('<br>')}
+  ${renderLanguages(data.languages)}
 
   ## Contributing
 
