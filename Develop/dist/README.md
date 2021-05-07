@@ -1,5 +1,5 @@
 
-  # title ![badmath](https://img.shields.io/badge/license-MIT-blue) ![badmath](https://img.shields.io/badge/license-Apache-blue) ![badmath](https://img.shields.io/badge/license-BSD-blue) ![badmath](https://img.shields.io/badge/license-GPL-blue)
+  # none 
 
   ## About/Description
 
@@ -35,7 +35,7 @@
 
   ## License
 
-  https://choosealicense.com/licenses/mit/<br>https://www.apache.org/licenses/LICENSE-2.0.txt<br>https://www.openbsd.org/policy.html<br>https://choosealicense.com/licenses/gpl-3.0/
+  No license selected
 
   ## Tests
 

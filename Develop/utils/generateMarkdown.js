@@ -36,13 +36,14 @@ const renderLicenseLink = license => {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 const renderLicenseSection = license => {
-  if(!license) {
-    let noLicense = 'No license';
+  if(license.length === 0) {
+    let noLicense = 'No license selected';
     console.log(license)
-    return     
-  } else {
-    return renderLicenseLink(license)
-  }
+    return  noLicense;
+  } else if(license) {    
+    return renderLicenseLink(license)       
+  } 
+  
 }
 
 
