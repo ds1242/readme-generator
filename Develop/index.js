@@ -95,7 +95,17 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
-    return inquirer.prompt(questions)
+    inquirer
+    .prompt(questions)
+    .then(function(data) {
+        const filename = data.title
+            .toLowerCase()
+            .split(' ')
+            .join('' + '.md')
+        console.log(filename);
+        console.log(data);
+    })   
+    // console.log(data);
 }
 
 // Function call to initialize app
