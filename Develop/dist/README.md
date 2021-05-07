@@ -1,9 +1,9 @@
 
-  # title ![badmath](https://img.shields.io/badge/license-MIT-blue) ![badmath](https://img.shields.io/badge/license-APACHE-blue) ![badmath](https://img.shields.io/badge/license-BSD-blue) ![badmath](https://img.shields.io/badge/license-GPL-blue)
+  # title of project and what not goes here ![badmath](https://img.shields.io/badge/license-APACHE-blue) ![badmath](https://img.shields.io/badge/license-GPL-blue)
 
   ## About/Description
 
-  descript
+  descrption ipusm lorem blah blah blah
 
   ## Table of Contents
 
@@ -11,41 +11,43 @@
   * [Usage](#usage)
   * [Languages](#languages)
   * [Contributing](#contributing)
-  * [License](license)
+  * [License](#license)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## Installation
 
-  none
+  installation instructions so anyone can use this for their benenfit if applicable as a project
 
   ## Usage
 
-  none
+  and special usage instructions
 
   ## Languages
 
-  JavaScript, HTML, CSS, ES6, jQuery, Bootstrap
+  JavaScript<br>CSS<br>ES6
 
   ## Contributing
 
-  Contributions by: name
+  Contributions by: David Shaw Tasha Thomas Lana Lou
 
   If you would like to contribute to this project we follow the [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## License
 
-  https://choosealicense.com/licenses/mit/,https://choosealicense.com/licenses/mit/,https://choosealicense.com/licenses/mit/,https://choosealicense.com/licenses/mit/
+  https://www.apache.org/licenses/LICENSE-2.0.txt<br>https://choosealicense.com/licenses/gpl-3.0/
 
   ## Tests
 
-  undefined
+  tests that I have conducted 
 
-  ## Contact for Questions:
+  ## Questions:
+
+  If you have any questions please contact us or refer to our github below:
 
   Email Us At: email@email.com
 
-  Github Repo: github.io/link
+  Github Repo: github.io/repo
 
 
 

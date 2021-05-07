@@ -20,17 +20,17 @@ const renderLicenseLink = license => {
   let linkArr = []
   for(let i = 0; i < license.length; i++){
     let licenseName = license[i].toLowerCase().split(' ')[0];
-    if(licenseName = 'mit'){
-      linkArr.push('https://choosealicense.com/licenses/mit/')
-    } else if(licenseName = 'apache') {
-      linkArr.push('https://www.apache.org/licenses/LICENSE-2.0.txt')
-    } else if(licenseName = 'bsd') {
-      linkArr.push('https://www.openbsd.org/policy.html')
-    } else if(licenseName = 'gpl') {
-      linkArr.push('https://choosealicense.com/licenses/gpl-3.0/')
+    if(licenseName === 'mit'){
+      linkArr.push('https://choosealicense.com/licenses/mit/');
+    } else if(licenseName === 'apache') {
+      linkArr.push('https://www.apache.org/licenses/LICENSE-2.0.txt');
+    } else if(licenseName === 'bsd') {
+      linkArr.push('https://www.openbsd.org/policy.html');
+    } else if(licenseName === 'gpl') {
+      linkArr.push('https://choosealicense.com/licenses/gpl-3.0/');
     }
   }
-  return linkArr
+  return linkArr.join('<br>')
 }
 
 // TODO: Create a function that returns the license section of README
@@ -58,7 +58,7 @@ const generateMarkdown = data => {
   * [Usage](#usage)
   * [Languages](#languages)
   * [Contributing](#contributing)
-  * [License](license)
+  * [License](#license)
   * [Tests](#tests)
   * [Questions](#questions)
   
@@ -72,7 +72,7 @@ const generateMarkdown = data => {
 
   ## Languages
 
-  ${data.languages.join(', ')}
+  ${data.languages.join('<br>')}
 
   ## Contributing
 
@@ -86,9 +86,11 @@ const generateMarkdown = data => {
 
   ## Tests
 
-  ${data.test}
+  ${data.tests}
 
-  ## Contact for Questions:
+  ## Questions:
+
+  If you have any questions please contact us or refer to our github below:
 
   Email Us At: ${data.email}
 
