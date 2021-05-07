@@ -1,15 +1,16 @@
 
-  # title of project
+  # title of prject ![badmath](https://img.shields.io/badge/license-mit-brightgreen),![badmath](https://img.shields.io/badge/license-apache-brightgreen),![badmath](https://img.shields.io/badge/license-bsd-brightgreen),![badmath](https://img.shields.io/badge/license-lgpl-brightgreen),![badmath](https://img.shields.io/badge/license-gpl-brightgreen)
 
   ## About/Description
 
-  description of project goes here
+  descritpion
 
   ## Table of Contents
 
-  * Installation
-  * Credits
-  * License
+  * [Installation](#installation)
+  * [Languages](#languages)
+  * [Credits](#Credits)
+  * [License](#License)
   
   ## Installation
 
@@ -17,21 +18,21 @@
 
   ## Languages
 
-  JavaScript, HTML, CSS, ES6
+  JavaScript
 
   ## Credits
 
-  David Shaw Tasha Thomas
+  name
 
   ## License
 
-  MIT License, Apache License, BSD License, LGPL, GPL
+  undefined
 
   ## Contact for Questions
 
   Email Us At: email
 
-  Github Repo: project link
+  Github Repo: link
 
 
 
