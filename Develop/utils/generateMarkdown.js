@@ -4,8 +4,8 @@ const renderLicenseBadge = license => {
   if(license) {
     let badge = [];
     for(let i = 0; i < license.length; i++){
-      let licenseName = license[i].toLowerCase().split(' ')[0]
-      badge.push('![badmath](https://img.shields.io/badge/license-'+ licenseName.toUpperCase() + '-blue)')
+      let licenseName = license[i].split(' ')[0]
+      badge.push('![badmath](https://img.shields.io/badge/license-'+ licenseName + '-blue)')
     }
     let newBadge = badge.join(' ').trim();
     return newBadge;
@@ -28,7 +28,7 @@ const renderLicenseLink = license => {
       linkArr.push('https://www.openbsd.org/policy.html');
     } else if(licenseName === 'gpl') {
       linkArr.push('https://choosealicense.com/licenses/gpl-3.0/');
-    }
+    } 
   }
   return linkArr.join('<br>')
 }
@@ -36,12 +36,15 @@ const renderLicenseLink = license => {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 const renderLicenseSection = license => {
-  if(license) {
-    return renderLicenseLink(license)
+  if(!license) {
+    let noLicense = 'No license';
+    console.log(license)
+    return     
   } else {
-    return 'No License Selected'
+    return renderLicenseLink(license)
   }
 }
+
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {

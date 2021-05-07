@@ -1,9 +1,9 @@
 
-  # title of project and what not goes here ![badmath](https://img.shields.io/badge/license-APACHE-blue) ![badmath](https://img.shields.io/badge/license-GPL-blue)
+  # title ![badmath](https://img.shields.io/badge/license-MIT-blue) ![badmath](https://img.shields.io/badge/license-Apache-blue) ![badmath](https://img.shields.io/badge/license-BSD-blue) ![badmath](https://img.shields.io/badge/license-GPL-blue)
 
   ## About/Description
 
-  descrption ipusm lorem blah blah blah
+  none
 
   ## Table of Contents
 
@@ -17,37 +17,37 @@
   
   ## Installation
 
-  installation instructions so anyone can use this for their benenfit if applicable as a project
+  none
 
   ## Usage
 
-  and special usage instructions
+  none
 
   ## Languages
 
-  JavaScript<br>CSS<br>ES6
+  
 
   ## Contributing
 
-  Contributions by: David Shaw Tasha Thomas Lana Lou
+  Contributions by: none
 
   If you would like to contribute to this project we follow the [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## License
 
-  https://www.apache.org/licenses/LICENSE-2.0.txt<br>https://choosealicense.com/licenses/gpl-3.0/
+  https://choosealicense.com/licenses/mit/<br>https://www.apache.org/licenses/LICENSE-2.0.txt<br>https://www.openbsd.org/policy.html<br>https://choosealicense.com/licenses/gpl-3.0/
 
   ## Tests
 
-  tests that I have conducted 
+  none
 
   ## Questions:
 
   If you have any questions please contact us or refer to our github below:
 
-  Email Us At: email@email.com
+  Email Us At: none
 
-  Github Repo: github.io/repo
+  Github Repo: none
 
 
 
