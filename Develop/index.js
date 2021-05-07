@@ -145,11 +145,10 @@ const init = () => {
     .prompt(questions)
     .then(function(data) {
         // create filename based on user title entered from questions above
-        // const filename = data.title
-        //     .toLowerCase()
-        //     .split(' ')
-        //     .join('') + '.md';
-        const filename = "README.md"
+        const filename = data.title
+            .toLowerCase()
+            .split(' ')
+            .join('') + '.md';
         writeToFile(filename, data);
     })   
     // console.log(data);
