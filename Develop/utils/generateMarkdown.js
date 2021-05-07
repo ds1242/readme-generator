@@ -7,8 +7,8 @@ const renderLicenseBadge = license => {
       let licenseName = license[i].toLowerCase().split(' ')[0]
       badge.push('![badmath](https://img.shields.io/badge/license-'+ licenseName + '-brightgreen)')
     }
-    console.log(badge);
-    return badge;
+    let newBadge = badge.join(' ').trim();
+    return newBadge;
   } else {
     return;
   }

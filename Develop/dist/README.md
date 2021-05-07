@@ -1,9 +1,9 @@
 
-  # title of prject ![badmath](https://img.shields.io/badge/license-mit-brightgreen),![badmath](https://img.shields.io/badge/license-apache-brightgreen),![badmath](https://img.shields.io/badge/license-bsd-brightgreen),![badmath](https://img.shields.io/badge/license-lgpl-brightgreen),![badmath](https://img.shields.io/badge/license-gpl-brightgreen)
+  # a ![badmath](https://img.shields.io/badge/license-mit-brightgreen) ![badmath](https://img.shields.io/badge/license-apache-brightgreen) ![badmath](https://img.shields.io/badge/license-bsd-brightgreen) ![badmath](https://img.shields.io/badge/license-lgpl-brightgreen) ![badmath](https://img.shields.io/badge/license-gpl-brightgreen)
 
   ## About/Description
 
-  descritpion
+  a
 
   ## Table of Contents
 
@@ -14,15 +14,15 @@
   
   ## Installation
 
-  none
+  a
 
   ## Languages
 
-  JavaScript
+  JavaScript, HTML, CSS, ES6, jQuery, Bootstrap
 
   ## Credits
 
-  name
+  a
 
   ## License
 
@@ -30,9 +30,9 @@
 
   ## Contact for Questions
 
-  Email Us At: email
+  Email Us At: a
 
-  Github Repo: link
+  Github Repo: a
 
 
 
