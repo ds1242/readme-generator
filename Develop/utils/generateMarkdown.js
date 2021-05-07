@@ -5,7 +5,7 @@ const renderLicenseBadge = license => {
     let badge = [];
     for(let i = 0; i < license.length; i++){
       let licenseName = license[i].toLowerCase().split(' ')[0]
-      badge.push('![badmath](https://img.shields.io/badge/license-'+ licenseName + '-brightgreen)')
+      badge.push('![badmath](https://img.shields.io/badge/license-'+ licenseName + '-blue)')
     }
     let newBadge = badge.join(' ').trim();
     return newBadge;
@@ -22,7 +22,7 @@ const renderLicenseLink = license => {}
 // If there is no license, return an empty string
 const renderLicenseSection = license => {
   if(license) {
-    renderLicenseBadge(license)
+    return renderLicenseBadge(license)
   } else {
     return 'No License Selected'
   }
@@ -40,27 +40,40 @@ const generateMarkdown = data => {
   ## Table of Contents
 
   * [Installation](#installation)
+  * [Usage](#usage)
   * [Languages](#languages)
-  * [Credits](#Credits)
-  * [License](#License)
+  * [Contributing](#contributing)
+  * [License](license)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Installation
 
   ${data.installation}
 
+  ## Usage
+
+  ${data.usage}
+
   ## Languages
 
   ${data.languages.join(', ')}
 
-  ## Credits
+  ## Contributing
 
-  ${data.credits}
+  Contributions by: ${data.credits}
+
+  If you would like to contribute to this project we follow the [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## License
 
   ${renderLicenseSection(data.license)}
 
-  ## Contact for Questions
+  ## Tests
+
+  ${data.test}
+
+  ## Contact for Questions:
 
   Email Us At: ${data.email}
 

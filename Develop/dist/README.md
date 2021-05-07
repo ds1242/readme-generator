@@ -26,7 +26,7 @@
 
   ## License
 
-  undefined
+  ![badmath](https://img.shields.io/badge/license-mit-brightgreen) ![badmath](https://img.shields.io/badge/license-apache-brightgreen) ![badmath](https://img.shields.io/badge/license-bsd-brightgreen) ![badmath](https://img.shields.io/badge/license-lgpl-brightgreen) ![badmath](https://img.shields.io/badge/license-gpl-brightgreen)
 
   ## Contact for Questions
 

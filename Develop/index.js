@@ -71,6 +71,32 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'usage',
+        message: 'Please enter any special use instructions.  If none enter "none". (required)',
+        validate: usageInput => {
+            if(usageInput) {
+                return true;
+            } else {
+                console.log('Please enter any special use instructions.  If none enter "none".');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Please enter any test information.  If none enter "none". (required)',
+        validate: testInput => {
+            if(testInput) {
+                return true;
+            } else {
+                console.log('Please enter any test information.  If none enter "none".');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
         name: 'link',
         message: 'Enter the Github link to your project. (Required)',
         validate: projectLink => {
